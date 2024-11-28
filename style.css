@@ -1,0 +1,101 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+header p {
+    font-size: 1.4rem;
+    opacity: 0.9;
+}
+
+/* Main Section */
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Ad Block Styling */
+.ad-block {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ad-block:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.ad-block h2 {
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    color: #fff;
+    font-size: 2rem;
+    padding: 15px 20px;
+    margin: 0;
+    border-bottom: 3px solid #dedfff;
+}
+
+.ad-block p {
+    padding: 20px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.ad-block .ad {
+    padding: 15px 20px;
+    text-align: center;
+    background: #f9f9f9;
+    border-top: 1px solid #eee;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 15px 20px;
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Utility Classes */
+.centered {
+    text-align: center;
+}
