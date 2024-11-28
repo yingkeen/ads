@@ -7,95 +7,66 @@
 
 /* Body Styling */
 body {
-    font-family: 'Roboto', Arial, sans-serif;
-    background-color: #f4f7fc;
-    color: #333;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif;
     line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
 }
 
 /* Header Styling */
 header {
-    background: linear-gradient(135deg, #4e54c8, #8f94fb);
-    color: #fff;
     text-align: center;
-    padding: 60px 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 header h1 {
-    font-size: 3.5rem;
-    margin-bottom: 10px;
-    font-weight: bold;
-    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 2.5em;
+    color: #444;
 }
 
 header p {
-    font-size: 1.4rem;
-    opacity: 0.9;
+    font-size: 1.2em;
+    color: #666;
 }
 
 /* Main Section */
 main {
-    max-width: 1000px;
+    max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
 }
 
-/* Ad Block Styling */
 .ad-block {
-    background: #ffffff;
-    border-radius: 12px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-    margin-bottom: 25px;
-    overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.ad-block:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .ad-block h2 {
-    background: linear-gradient(135deg, #4e54c8, #8f94fb);
-    color: #fff;
-    font-size: 2rem;
-    padding: 15px 20px;
-    margin: 0;
-    border-bottom: 3px solid #dedfff;
+    font-size: 1.8em;
+    color: #333;
 }
 
 .ad-block p {
-    padding: 20px;
-    font-size: 1rem;
+    font-size: 1em;
     color: #555;
+    margin-bottom: 15px;
 }
 
-.ad-block .ad {
-    padding: 15px 20px;
+.ad {
     text-align: center;
-    background: #f9f9f9;
-    border-top: 1px solid #eee;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
 }
 
 /* Footer Styling */
 footer {
     text-align: center;
-    background: #333;
-    color: #fff;
-    padding: 15px 20px;
     margin-top: 30px;
-    font-size: 0.9rem;
-}
-
-footer p {
-    margin: 0;
-}
-
-/* Utility Classes */
-.centered {
-    text-align: center;
+    font-size: 0.9em;
+    color: #777;
 }
